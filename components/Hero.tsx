@@ -29,7 +29,7 @@ export default function Hero() {
     <section id="top" className="relative overflow-hidden pt-16 md:pt-20">
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-40 right-[-10%] h-[520px] w-[520px] rounded-full bg-brand-gradient-soft blur-3xl"
+        className="pointer-events-none absolute -top-40 right-[-10%] h-[520px] w-[520px] rounded-full bg-brand-gradient-soft "
       />
 
       <div className="container-page relative grid gap-14 pb-20 md:grid-cols-2 md:items-center md:pb-28">
@@ -53,7 +53,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="https://loanapply.fundsontime.com/auth"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#FF6666] to-[#FB875D] px-7 py-4 text-sm font-semibold text-white shadow-lg hover:shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="group mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-brand-gradient px-5 py-3 text-sm font-semibold text-white shadow-brand transition-transform hover:scale-[1.02] sm:w-auto"
             >
               Apply Now
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -85,7 +85,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
             <div className="flex items-center gap-2 text-sm text-ink-500">
               <Zap className="h-4 w-4 text-azure-500" />
-              Disbursal in 2 hours
+              Disbursal in 7 minutes
             </div>
             <div className="flex items-center gap-2 text-sm text-ink-500">
               <FileCheck2 className="h-4 w-4 text-azure-500" />

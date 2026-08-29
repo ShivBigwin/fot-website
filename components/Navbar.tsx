@@ -5,8 +5,8 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 const links = [
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Why FundsOnTime", href: "#why" },
+  { label: "How it works", href: "" },
+  { label: "Why FundsOnTime", href: "/aboutUs" },
   { label: "EMI calculator", href: "#calculator" },
   { label: "FAQs", href: "#faq" },
 ];

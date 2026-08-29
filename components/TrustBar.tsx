@@ -1,8 +1,8 @@
 const stats = [
   { value: "12L+", label: "Loans disbursed" },
-  { value: "₹2,400Cr+", label: "Total payout" },
+  { value: "₹500Cr+", label: "Total payout" },
   { value: "4.6/5", label: "App store rating" },
-  { value: "9 min", label: "Avg. approval time" },
+  { value: "7 min", label: "Avg. approval time" },
 ];
 
 export default function TrustBar() {
