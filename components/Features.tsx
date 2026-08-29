@@ -1,9 +1,16 @@
-import { Clock, ShieldCheck, PiggyBank, Smartphone, TrendingUp, Headphones } from "lucide-react";
+import {
+  Clock,
+  ShieldCheck,
+  PiggyBank,
+  Smartphone,
+  TrendingUp,
+  Headphones,
+} from "lucide-react";
 
 const features = [
   {
     icon: Clock,
-    title: "2-hour disbursal",
+    title: "78 minute disbursal",
     desc: "Once approved, funds hit your bank account the same day — no waiting on branch hours.",
   },
   {
@@ -19,7 +26,7 @@ const features = [
   {
     icon: TrendingUp,
     title: "Flexible tenure",
-    desc: "Repay anywhere from 3 to 60 months with an EMI plan that fits your income.",
+    desc: "Repay anywhere from 7 to 60 days that fits your income.",
   },
   {
     icon: ShieldCheck,
@@ -43,8 +50,8 @@ export default function Features() {
             Built for how you actually borrow
           </h2>
           <p className="mt-3 text-ink-500">
-            No branch visits, no runaround. Just a fast, honest way to get
-            money when you need it.
+            No branch visits, no runaround. Just a fast, honest way to get money
+            when you need it.
           </p>
         </div>
 

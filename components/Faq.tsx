@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Which NBFC sanctions the loan?",
-    a: "Loans are sanctioned by our lending partner, Tristar Fincon & Credit Pvt. Ltd, an RBI-registered NBFC, in accordance with the Reserve Bank of India's Digital Lending Guidelines. Partner details are shown before you accept any offer.",
+    a: "Loans are sanctioned by our NBFC, Tristar Fincon & Credit Pvt. Ltd, an RBI-registered NBFC, in accordance with the Reserve Bank of India's Digital Lending Guidelines. Partner details are shown before you accept any offer.",
   },
 ];
 
@@ -61,7 +61,9 @@ export default function Faq() {
               </button>
               <div
                 className={`grid overflow-hidden transition-all duration-300 ease-in-out ${
-                  isOpen ? "grid-rows-[1fr] pb-6 opacity-100" : "grid-rows-[0fr] opacity-0"
+                  isOpen
+                    ? "grid-rows-[1fr] pb-6 opacity-100"
+                    : "grid-rows-[0fr] opacity-0"
                 }`}
               >
                 <p className="overflow-hidden text-sm leading-relaxed text-ink-500">

@@ -8,17 +8,13 @@ function formatINR(n: number) {
 
 export default function EmiCalculator() {
   const [amount, setAmount] = useState(75000);
-  const [tenure, setTenure] = useState(12);
-  const [rate, setRate] = useState(11.5);
+  const [tenure, setTenure] = useState(10);
+  const [rate, setRate] = useState(1.0);
 
   const { emi, totalPayment, totalInterest } = useMemo(() => {
-    const monthlyRate = rate / 12 / 100;
+    const monthlyRate = rate / 100;
     const n = tenure;
-    const emiValue =
-      monthlyRate === 0
-        ? amount / n
-        : (amount * monthlyRate * Math.pow(1 + monthlyRate, n)) /
-          (Math.pow(1 + monthlyRate, n) - 1);
+    const emiValue = (amount + amount * monthlyRate * n) / n;
     const total = emiValue * n;
     return {
       emi: emiValue,
@@ -32,10 +28,11 @@ export default function EmiCalculator() {
       <div className="mx-auto max-w-2xl text-center">
         <span className="eyebrow justify-center">Plan ahead</span>
         <h2 className="mt-4 font-display text-3xl font-bold tracking-tight text-ink md:text-4xl">
-          See your EMI before you apply
+          See your repayment amount before you apply
         </h2>
         <p className="mt-3 text-ink-500">
-          Move the sliders to match what you need — the numbers update instantly.
+          Move the sliders to match what you need — the numbers update
+          instantly.
         </p>
       </div>
 
@@ -45,41 +42,41 @@ export default function EmiCalculator() {
             label="Loan amount"
             value={formatINR(amount)}
             min={5000}
-            max={500000}
-            step={5000}
+            max={100000}
+            step={1000}
             onChange={setAmount}
             current={amount}
             minLabel="₹5,000"
-            maxLabel="₹5,00,000"
+            maxLabel="₹1,00,000"
           />
           <SliderRow
             label="Tenure"
-            value={`${tenure} months`}
+            value={`${tenure} days`}
             min={3}
             max={60}
             step={1}
             onChange={setTenure}
             current={tenure}
-            minLabel="3 mo"
-            maxLabel="60 mo"
+            minLabel="7 days"
+            maxLabel="60 days"
           />
           <SliderRow
             label="Interest rate (p.a.)"
             value={`${rate.toFixed(1)}%`}
-            min={10}
-            max={28}
-            step={0.5}
+            min={0.5}
+            max={1.5}
+            step={0.1}
             onChange={setRate}
             current={rate}
-            minLabel="10%"
-            maxLabel="28%"
+            minLabel="0.5%"
+            maxLabel="1.5%"
           />
         </div>
 
         <div className="flex flex-col justify-between rounded-[1.75rem] bg-ink p-7 text-white">
           <div>
             <span className="font-mono text-xs uppercase tracking-[0.14em] text-white/40">
-              Your monthly EMI
+              Your daily repayment
             </span>
             <div className="mt-2 font-display text-4xl font-bold tabular-nums">
               {formatINR(emi)}
@@ -102,9 +99,9 @@ export default function EmiCalculator() {
       </div>
 
       <p className="mx-auto mt-4 max-w-2xl text-center text-xs text-ink-500/70">
-        Indicative figures only. Final interest rate and EMI depend on your credit
-        profile and are confirmed by our lending partner, Tristar Fincon &
-        Credit Pvt. Ltd, before disbursal.
+        Indicative figures only. Final interest rate and repayment depend on
+        your credit profile and are confirmed by our lending partner, Tristar
+        Fincon & Credit Pvt. Ltd, before disbursal.
       </p>
     </section>
   );
@@ -161,11 +158,21 @@ function SliderRow({
   );
 }
 
-function Row({ label, value, accent }: { label: string; value: string; accent?: boolean }) {
+function Row({
+  label,
+  value,
+  accent,
+}: {
+  label: string;
+  value: string;
+  accent?: boolean;
+}) {
   return (
     <div className="flex items-center justify-between text-sm">
       <span className="text-white/50">{label}</span>
-      <span className={accent ? "font-semibold text-azure-100" : "text-white/80"}>
+      <span
+        className={accent ? "font-semibold text-azure-100" : "text-white/80"}
+      >
         {value}
       </span>
     </div>

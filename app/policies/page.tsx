@@ -94,8 +94,8 @@ const sections: LegalSection[] = [
           never to a third party.
         </li>
         <li>
-          EMIs are collected via auto-debit (NACH mandate) on the due date
-          agreed at disbursal.
+          Recovery is done via auto-debit (NACH mandate) on the due date agreed
+          at disbursal.
         </li>
         <li>
           Recovery calls or visits, if ever required, take place only between

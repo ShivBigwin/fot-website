@@ -17,7 +17,7 @@ const steps = [
   {
     num: "04",
     title: "Receive funds",
-    desc: "Money is disbursed directly to your bank account, usually within 2 hours of approval.",
+    desc: "Money is disbursed directly to your bank account, usually within 7 minutes of approval.",
   },
 ];
 
