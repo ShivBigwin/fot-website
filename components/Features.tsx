@@ -10,7 +10,7 @@ import {
 const features = [
   {
     icon: Clock,
-    title: "78 minute disbursal",
+    title: "7 minute disbursal",
     desc: "Once approved, funds hit your bank account the same day — no waiting on branch hours.",
   },
   {

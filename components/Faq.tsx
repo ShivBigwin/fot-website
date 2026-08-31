@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: "How long does approval take?",
-    a: "Most applications receive an in-principle decision within 9 minutes. Once your KYC and bank statements are verified, funds are typically disbursed within 2 hours.",
+    a: "Most applications receive an in-principle decision within 9 minutes. Once your KYC and bank statements are verified, funds are typically disbursed within 7 minutes.",
   },
   {
     q: "What documents do I need?",
