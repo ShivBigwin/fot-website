@@ -25,15 +25,20 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="container-page py-20 md:py-28">
       <div className="grid gap-12 md:grid-cols-[0.8fr_1.2fr] md:gap-16">
-        <div>
-          <span className="eyebrow">The process</span>
+        <div className="">
+          <span className="eyebrow ">The process</span>
           <h2 className="mt-4 font-display text-3xl font-bold tracking-tight text-ink md:text-4xl text-balance">
             From application to bank transfer in four steps
           </h2>
           <p className="mt-4 text-ink-500">
             The entire journey happens on your phone — designed to take less
-            time than your coffee break.
+            time than 7 minutes.
           </p>
+          <img
+            className="w-full max-w-4xl rounded-2xl mx-auto mt-4 h-auto"
+            src="/journey.png"
+            alt=""
+          />
         </div>
 
         <ol className="relative flex flex-col gap-10 border-l border-ink/10 pl-8">

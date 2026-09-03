@@ -90,7 +90,7 @@ export default function EmiCalculator() {
           </div>
 
           <a
-            href="#apply"
+            href="https://loanapply.fundsontime.in"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-brand-gradient px-6 py-3.5 text-sm font-semibold text-white shadow-brand transition-transform hover:scale-[1.02]"
           >
             Apply for this amount
@@ -100,8 +100,8 @@ export default function EmiCalculator() {
 
       <p className="mx-auto mt-4 max-w-2xl text-center text-xs text-ink-500/70">
         Indicative figures only. Final interest rate and repayment depend on
-        your credit profile and are confirmed by our lending partner, Tristar
-        Fincon & Credit Pvt. Ltd, before disbursal.
+        your credit profile and are confirmed by our lending partner, RAJVIR
+        SECURITIES AND FINANCE PVT. LTD. before disbursal.
       </p>
     </section>
   );

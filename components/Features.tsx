@@ -31,7 +31,7 @@ const features = [
   {
     icon: ShieldCheck,
     title: "RBI-registered lending",
-    desc: "Every loan is sanctioned by Tristar Fincon & Credit Pvt. Ltd, our RBI-registered NBFC partner, under the RBI's Digital Lending Guidelines.",
+    desc: "Every loan is sanctioned by RAJVIR SECURITIES AND FINANCE PVT. LTD., our RBI-registered NBFC partner, under the RBI's Digital Lending Guidelines.",
   },
   {
     icon: Headphones,

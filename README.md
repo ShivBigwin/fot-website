@@ -2,7 +2,7 @@
 
 A modern fintech landing page (Next.js 14 App Router + Tailwind CSS) for an
 instant-personal-loan brand called **FundsOnTime**, lending in partnership
-with **Tristar Fincon & Credit Pvt. Ltd** (RBI-registered NBFC). Structure is
+with **RAJVIR SECURITIES AND FINANCE PVT. LTD.** (RBI-registered NBFC). Structure is
 modeled on the ZapCash personal-loan page (hero → trust bar → EMI calculator
 → features → how-it-works → testimonials → FAQ → app CTA → footer), in a
 navy blue brand palette:
@@ -68,7 +68,7 @@ components/
 - All fonts (Sora, Inter, IBM Plex Mono) are self-hosted via `@fontsource/*`
   packages rather than fetched from Google Fonts at build time, so builds
   work reliably in network-restricted environments (CI, sandboxes, offline).
-- The NBFC partner name (Tristar Fincon & Credit Pvt. Ltd), RBI registration
+- The NBFC partner name (RAJVIR SECURITIES AND FINANCE PVT. LTD.), RBI registration
   number, and legal copy in the footer/policies/privacy pages should be
   double-checked against your actual regulatory filings before shipping —
   in particular, add the real RBI Certificate of Registration number

@@ -21,9 +21,10 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          FundsOnTime facilitates loans through our lending partner, Tristar
-          Fincon & Credit Pvt. Ltd, an RBI-registered NBFC that follows the Fair
-          Practice Code prescribed by the Reserve Bank of India. We commit to:
+          FundsOnTime facilitates loans through our lending partner, Rajvir
+          Securities And Finance Pvt. Ltd. an RBI-registered NBFC that follows
+          the Fair Practice Code prescribed by the Reserve Bank of India. We
+          commit to:
         </p>
         <ul className="list-disc space-y-2 pl-5">
           <li>
@@ -52,14 +53,14 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          Interest rates are risk-based and determined by Tristar Fincon &
-          Credit Pvt. Ltd using your credit score, income, repayment history and
-          loan tenure.
+          Interest rates are risk-based and determined by Rajvir Securities And
+          Finance Pvt. Ltd. using your credit score, income, repayment history
+          and loan tenure.
         </p>
         <ul className="list-disc space-y-2 pl-5">
           <li>Interest rate range:Between 0.5% to 1% per day.</li>
           <li>Late payment charges:Bounce charge up to 1000 after due date.</li>
-          <li>Loan Tenure :Between 91 to 365 days </li>
+          <li>Loan Tenure :Between 7 to 90 days </li>
           <li>Processing fees:Upto 10% of loan amount.</li>
         </ul>
         <p>
@@ -139,8 +140,8 @@ const sections: LegalSection[] = [
           <li>
             <span className="font-medium text-ink">NBFC nodal officer</span>
             {" — "}if unresolved, escalate directly to the nodal officer at
-            Tristar Fincon & Credit Pvt. Ltd, whose contact details are shared
-            in your loan agreement.
+            RAJVIR SECURITIES AND FINANCE PVT. LTD., whose contact details are
+            shared in your loan agreement.
           </li>
           <li>
             <span className="font-medium text-ink">RBI Ombudsman</span>
@@ -193,7 +194,7 @@ export default function PoliciesPage() {
       <LegalHeader
         eyebrow="Legal"
         title="Our Policies"
-        description="Fair Practice Code, pricing, KYC compliance and grievance redressal — the rules FundsOnTime and Tristar Fincon & Credit Pvt. Ltd hold themselves to."
+        description="Fair Practice Code, pricing, KYC compliance and grievance redressal — the rules FundsOnTime and RAJVIR SECURITIES AND FINANCE PVT. LTD. hold themselves to."
         updated="August 27, 2026"
       />
       <div className="container-page grid gap-12 py-16 md:grid-cols-[260px_1fr] md:py-24">

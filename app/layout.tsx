@@ -18,7 +18,7 @@ import LoaderProvider from "@/components/LoaderProvider";
 export const metadata: Metadata = {
   title: "FundsOnTime — Instant Personal Loans up to ₹5 Lakh",
   description:
-    "FundsOnTime gets you instant personal loans up to ₹5 Lakh with 100% digital KYC, transparent pricing and same-day disbursal. Powered by Tristar Fincon & Credit Pvt. Ltd, an RBI-registered NBFC.",
+    "FundsOnTime gets you instant personal loans up to ₹5 Lakh with 100% digital KYC, transparent pricing and same-day disbursal. Powered by RAJVIR SECURITIES AND FINANCE PVT. LTD., an RBI-registered NBFC.",
 };
 
 export default function RootLayout({

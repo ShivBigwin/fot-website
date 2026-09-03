@@ -36,7 +36,8 @@ export default function Hero() {
         <div className="animate-fade-up">
           <span className="eyebrow">
             <span className="h-1.5 w-1.5 rounded-full bg-azure-500" />
-            Powered by Tristar Fincon & Credit Pvt. Ltd, RBI-registered NBFC
+            Powered by RAJVIR SECURITIES AND FINANCE PVT. LTD., RBI-registered
+            NBFC
           </span>
 
           <h1 className="mt-5 font-display text-[2.6rem] font-bold leading-[1.08] tracking-tight text-ink text-balance md:text-6xl">

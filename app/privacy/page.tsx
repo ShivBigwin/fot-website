@@ -24,10 +24,10 @@ const sections: LegalSection[] = [
           FundsOnTime (&ldquo;FundsOnTime&rdquo;, &ldquo;we&rdquo;,
           &ldquo;us&rdquo;) is a digital loan facilitation platform that
           connects eligible customers with our RBI-registered Non-Banking
-          Financial Company (NBFC) partner, Tristar Fincon & Credit Pvt. Ltd.
-          This Privacy Policy explains what personal information we collect when
-          you use our website or app, how we use it, who we share it with, and
-          the choices you have.
+          Financial Company (NBFC) partner, RAJVIR SECURITIES AND FINANCE PVT.
+          LTD.. This Privacy Policy explains what personal information we
+          collect when you use our website or app, how we use it, who we share
+          it with, and the choices you have.
         </p>
         <p>
           By using FundsOnTime, you agree to the collection and use of
@@ -106,9 +106,9 @@ const sections: LegalSection[] = [
         <ul className="list-disc space-y-2 pl-5">
           <li>
             <span className="font-medium text-ink">Lending partner</span>
-            {" — "}Tristar Fincon & Credit Pvt. Ltd, the RBI-registered NBFC
-            that sanctions and disburses your loan, receives the details needed
-            to underwrite and service it.
+            {" — "}RAJVIR SECURITIES AND FINANCE PVT. LTD., the RBI-registered
+            NBFC that sanctions and disburses your loan, receives the details
+            needed to underwrite and service it.
           </li>
           <li>
             <span className="font-medium text-ink">Credit bureaus</span>

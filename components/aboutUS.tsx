@@ -66,7 +66,7 @@ export default function AboutUs() {
                 FundsOnTime is acting solely in the capacity of a Trademarked
                 brand Name. All loan approval decisions and disbursals are
                 exclusively performed by{" "}
-                <strong>Tristar Fincon Pvt. Ltd.</strong>
+                <strong>RAJVIR SECURITIES AND FINANCE PVT. LTD.</strong>
               </p>
               <div className="bg-gradient-to-r from-[#2563EB]/10 to-[#3B82F6]/10 rounded-lg p-4 border border-[#2563EB]/10">
                 <p className="text-sm text-gray-700">

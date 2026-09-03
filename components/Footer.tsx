@@ -1,3 +1,4 @@
+import Image from "next/image";
 const columns = [
   {
     title: "Product",
@@ -14,7 +15,7 @@ const columns = [
       { label: "About us", href: "/aboutUs" },
       { label: "Careers", href: "#" },
       { label: "Press", href: "#" },
-      { label: "Contact", href: "#" },
+      { label: "Contact", href: "/contactUs" },
     ],
   },
   {
@@ -43,17 +44,27 @@ export default function Footer() {
       <div className="container-page py-16">
         <div className="grid gap-12 md:grid-cols-[1.3fr_2fr]">
           <div>
-            <a href="#top" className="flex items-center gap-2">
+            {/* <a href="#top" className="flex items-center gap-2">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-gradient font-display text-base font-bold text-white">
                 ₹
               </span>
               <span className="font-display text-lg font-bold text-ink">
                 FundsOnTime
               </span>
+            </a> */}
+            <a href="#top" className="flex items-center gap-2">
+              <Image
+                src="/logo-funds.png"
+                alt="FundsOnTime Logo"
+                width={150} // h-9 = 36px
+                height={60} // w-9 = 36px
+                className="rounded-xl object-contain"
+              />
             </a>
+
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-500">
               FundsOnTime is a digital loan facilitation platform that partners
-              with Tristar Fincon & Credit Pvt. Ltd, an RBI-registered
+              with RAJVIR SECURITIES AND FINANCE PVT. LTD., an RBI-registered
               Non-Banking Financial Company, to offer personal loans to eligible
               customers.
             </p>
@@ -84,8 +95,8 @@ export default function Footer() {
 
         <div className="mt-14 border-t border-ink/8 pt-8">
           <p className="text-xs leading-relaxed text-ink-500/80">
-            FundsOnTime loans are sanctioned and disbursed by Tristar Fincon &
-            Credit Pvt. Ltd, an RBI-registered NBFC lending partner, in
+            FundsOnTime loans are sanctioned and disbursed by Rajvir Securities
+            And Finance Pvt. Ltd., an RBI-registered NBFC lending partner, in
             accordance with the Reserve Bank of India's Digital Lending
             Guidelines. Interest rates range from 0.5% to 1.0% per day based on
             credit profile. Loan amount, tenure and rate shown are indicative

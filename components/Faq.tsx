@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Which NBFC sanctions the loan?",
-    a: "Loans are sanctioned by our NBFC, Tristar Fincon & Credit Pvt. Ltd, an RBI-registered NBFC, in accordance with the Reserve Bank of India's Digital Lending Guidelines. Partner details are shown before you accept any offer.",
+    a: "Loans are sanctioned by our NBFC, RAJVIR SECURITIES AND FINANCE PVT. LTD., an RBI-registered NBFC, in accordance with the Reserve Bank of India's Digital Lending Guidelines. Partner details are shown before you accept any offer.",
   },
 ];
 

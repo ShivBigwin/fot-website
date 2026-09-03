@@ -5,7 +5,7 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 const links = [
-  { label: "How it works", href: "" },
+  { label: "How it works", href: "/home" },
   { label: "Why FundsOnTime", href: "/aboutUs" },
   { label: "EMI calculator", href: "#calculator" },
   { label: "FAQs", href: "#faq" },
@@ -25,7 +25,7 @@ export default function Navbar() {
             FundsOnTime
           </span>
         </a> */}
-        <a href="#top" className="flex items-center gap-2">
+        <a href="/home" className="flex items-center gap-2">
           <Image
             src="/logo-funds.png"
             alt="FundsOnTime Logo"
@@ -51,17 +51,17 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-4 md:flex">
-          <a
+          {/* <a
             href="#calculator"
             className="text-sm font-semibold text-ink hover:text-azure-600"
           >
             Check eligibility
-          </a>
+          </a> */}
           <a
-            href="#apply"
+            href="https://loanapply.fundsontime.in"
             className="group inline-flex items-center gap-1.5 rounded-full bg-brand-gradient px-5 py-2.5 text-sm font-semibold text-white shadow-brand transition-transform hover:scale-[1.03] active:scale-[0.98]"
           >
-            Get the app
+            Apply Now
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
@@ -90,11 +90,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#apply"
+              href="https://loanapply.fundsontime.in"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-brand-gradient px-5 py-3 text-sm font-semibold text-white shadow-brand"
             >
-              Get the app
+              Apply Now
             </a>
           </div>
         </div>
